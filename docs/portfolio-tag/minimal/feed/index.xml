@@ -11,14 +11,22 @@
 	<title>minimal &#8211; SP.IN FEST</title>
 	<atom:link href="/portfolio-tag/minimal/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
+	<description>Festival Internacional de Dança Contemporânea de SP</description>
 	<lastBuildDate>Thu, 30 Jul 2020 09:00:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2024/06/cropped-02-32x32.png</url>
+	<title>minimal &#8211; SP.IN FEST</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Contem Art 24</title>
 		<link>/portfolio-item/contem-art-24/</link>
