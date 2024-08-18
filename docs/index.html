@@ -1391,7 +1391,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             let convertKitFormId, apiEndpoint;
 
-            if (formId === 'form-177') {
+            if (formData._wpcf7 === '177') {
                 convertKitFormId = '6884291';
                 apiEndpoint = `https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`;
                 
@@ -1414,7 +1414,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 .catch((error) => {
                     console.error('Error:', error);
                 });
-            } else if (formId === 'form-7533') {
+            } else if (formData._wpcf7 === '7533') {
                 convertKitFormId = '6884207';
                 apiEndpoint = `https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`;
                 
