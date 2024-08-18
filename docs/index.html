@@ -1373,6 +1373,7 @@ de Dança Contemporânea
 // Send Contact Form 7 data to ConvertKit Form
 	
 document.addEventListener( 'wpcf7submit', function( event ) {
+	console.log("-> Submit wpcf7submit", event)
   var inputs = event.detail.inputs;
 	console.log('wpcf7submit', event.detail)
 
