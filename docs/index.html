@@ -1370,42 +1370,82 @@ de Dança Contemporânea
         <span class="ssp-id" style="display:none">115</span>
 		
 <script type="text/javascript">// Snippet by WPOrbit | Visit: https://wporbit.net
-// Send Contact Form 7 data to ConvertKit Form
-	
-document.addEventListener( 'wpcf7submit', function( event ) {
-	console.log("-> Submit wpcf7submit", event)
-  var inputs = event.detail.inputs;
-	console.log('wpcf7submit', event.detail)
+// Script to send form data to ConvertKit API
+document.addEventListener('DOMContentLoaded', function() {
+    const forms = document.querySelectorAll('form');
+    
+    forms.forEach(form => {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            console.log("-> Form submitted", event);
 
-	if ( '177' == event.detail.contactFormId ) { // Replace 12345 with your Contact Form 7 ID
-	  jQuery.post("https://api.convertkit.com/v3/forms/6884291/subscribe", // Replace 12345 with Convert Kit Form ID
-		{
-			api_key: "wRezdkixpPf2BfS43EFwCA",
-			email: inputs[0].value
-		},
-		function(data, status){
-		  console.log(status);
-// 		  window.location.href = "/portfolio-category/workshop/"; // Redirect to a thank you page..
-	   });
-   }	
-	
-	if ( '7533' == event.detail.contactFormId ) { // Replace 12345 with your Contact Form 7 ID
-	  jQuery.post("https://api.convertkit.com/v3/forms/6884207/subscribe", // Replace 12345 with Convert Kit Form ID
-		{
-			api_key: "wRezdkixpPf2BfS43EFwCA",
-			email: inputs[1].value,
-			//tags: [1234, 5678],
-			first_name: inputs[0].value,
-			fields: {
-			  link: inputs[2].value
-			}
-		},
-		function(data, status){
-		  console.log(status);
-// 		  window.location.href = "/portfolio-category/workshop/"; // Redirect to a thank you page..
-	   });
-   }
-}, false );</script>
+            const formId = this.getAttribute('id');
+            const inputs = Array.from(this.elements).filter(el => el.name);
+            const formData = {};
+
+            inputs.forEach(input => {
+                formData[input.name] = input.value;
+            });
+
+            console.log('Form data:', formData);
+
+            let convertKitFormId, apiEndpoint;
+
+            if (formId === 'form-177') {
+                convertKitFormId = '6884291';
+                apiEndpoint = `https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`;
+                
+                fetch(apiEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        api_key: "wRezdkixpPf2BfS43EFwCA",
+                        email: formData.email
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    // Uncomment the next line to redirect after successful submission
+                    // window.location.href = "/thank-you-page/";
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+            } else if (formId === 'form-7533') {
+                convertKitFormId = '6884207';
+                apiEndpoint = `https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`;
+                
+                fetch(apiEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        api_key: "wRezdkixpPf2BfS43EFwCA",
+                        email: formData.email,
+                        first_name: formData.name,
+                        fields: {
+                            link: formData.link
+                        }
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+                    // Uncomment the next line to redirect after successful submission
+                    // window.location.href = "/thank-you-page/";
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+            }
+        });
+    });
+});
+</script>
 <link href="https://fonts.googleapis.com/css?family=DM+Sans:400%2C700%2C500%7CRoboto:500%2C400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
 <script type="text/javascript">if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}</script>
