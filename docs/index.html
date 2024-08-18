@@ -1402,7 +1402,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     },
                     body: JSON.stringify({
                         api_key: "wRezdkixpPf2BfS43EFwCA",
-                        email: formData.email
+                        email: formData["your-email"]
                     })
                 })
                 .then(response => response.json())
@@ -1425,7 +1425,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     },
                     body: JSON.stringify({
                         api_key: "wRezdkixpPf2BfS43EFwCA",
-                        email: formData.email,
+                        email: formData["your-email"],
                         first_name: formData.name,
                         fields: {
                             link: formData.link
