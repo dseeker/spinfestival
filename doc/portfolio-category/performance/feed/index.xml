@@ -12,7 +12,7 @@
 	<atom:link href="/portfolio-category/performance/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Festival Internacional de Dança Contemporânea de SP</description>
-	<lastBuildDate>Sun, 18 Aug 2024 10:17:18 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 18 Aug 2024 10:33:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,100 +28,6 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title></title>
-		<link>/portfolio-item/workshops-seminars/</link>
-					<comments>/portfolio-item/workshops-seminars/#respond</comments>
-		
-		<dc:creator><![CDATA[spinfest]]></dc:creator>
-		<pubDate>Fri, 05 Jun 2020 10:54:29 +0000</pubDate>
-				<guid isPermaLink="false">https://zermatt.qodeinteractive.com/?post_type=portfolio-item&#038;p=114</guid>
-
-					<description><![CDATA[Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit ullam id dolor sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Lorem Ipsum proin gravida nibh vel id. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat [&#8230;]]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="114" class="elementor elementor-114">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1c2d76 elementor-section-boxed elementor-section-height-default elementor-section-height-default qodef-elementor-content-no qodef-elementor-stretch-row-no qodef-elementor-overlay-no" data-id="c1c2d76" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9b12f38" data-id="9b12f38" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-f6f0a95 elementor-widget elementor-widget-text-editor" data-id="f6f0a95" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.19.0 - 07-02-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit ullam id dolor sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Lorem Ipsum proin gravida nibh vel id. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sit amet nulla facilisi morbi. Odio morbi quis commodo odio. Vitae tortor condimentum lacinia quis vel eros donec ac.</p>						</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/portfolio-item/workshops-seminars/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title></title>
-		<link>/portfolio-item/conference-technology/</link>
-					<comments>/portfolio-item/conference-technology/#respond</comments>
-		
-		<dc:creator><![CDATA[spinfest]]></dc:creator>
-		<pubDate>Fri, 05 Jun 2020 10:54:07 +0000</pubDate>
-				<guid isPermaLink="false">https://zermatt.qodeinteractive.com/?post_type=portfolio-item&#038;p=113</guid>
-
-					<description><![CDATA[Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit ullam id dolor sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Lorem Ipsum proin gravida nibh vel id.]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="113" class="elementor elementor-113">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-90aaf29 elementor-section-boxed elementor-section-height-default elementor-section-height-default qodef-elementor-content-no qodef-elementor-stretch-row-no qodef-elementor-overlay-no" data-id="90aaf29" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-65300e3" data-id="65300e3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-8ec9f6f elementor-widget elementor-widget-text-editor" data-id="8ec9f6f" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit ullam id dolor sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Lorem Ipsum proin gravida nibh vel id.</p>						</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/portfolio-item/conference-technology/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Metronomia</title>
-		<link>/portfolio-item/stage-design-public-events/</link>
-					<comments>/portfolio-item/stage-design-public-events/#respond</comments>
-		
-		<dc:creator><![CDATA[spinfest]]></dc:creator>
-		<pubDate>Fri, 05 Jun 2020 10:53:44 +0000</pubDate>
-				<guid isPermaLink="false">https://zermatt.qodeinteractive.com/?post_type=portfolio-item&#038;p=112</guid>
-
-					<description><![CDATA[Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit ullam id dolor sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Lorem Ipsum proin gravida nibh vel id.]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="112" class="elementor elementor-112">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-e22e078 elementor-section-boxed elementor-section-height-default elementor-section-height-default qodef-elementor-content-no qodef-elementor-stretch-row-no qodef-elementor-overlay-no" data-id="e22e078" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f118354" data-id="f118354" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-6070fee elementor-widget elementor-widget-text-editor" data-id="6070fee" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit ullam id dolor sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Lorem Ipsum proin gravida nibh vel id.</p>						</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/portfolio-item/stage-design-public-events/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>Darwin to Darwin</title>
 		<link>/portfolio-item/johannes-performance/</link>
 					<comments>/portfolio-item/johannes-performance/#respond</comments>
@@ -138,7 +44,8 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-caf4b33 elementor-widget elementor-widget-text-editor" data-id="caf4b33" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>A peça Darwin to Darwin de Johannes Wieland é um compêndio sobre indivíduos, relacionamentos e sua complexidade estratificada.</p><p>Cada intérprete incorpora um determinado personagem que se transforma ao longo da peça apresentando diversas facetas da humanidade.</p><p>&#8220;habitamos este corpo, evoluindo ao longo de sete milhões de anos. ele nos hospeda e nos fornece um lugar para existir. decifrar a antiga estratégia de sobrevivência, física e mental, é uma ladeira escorregadia: é incontrolável. uma perspectiva estreita e subjetiva. somos prisioneiros dos nossos instintos, querer ver o que querem que vejamos, querer saber o que querem que saibamos, querer sentir o que querem que sintamos, sim, há uma evolução, mas não há escapatória.</p><p>instintos.<br />sobrevivência.<br />reprodução.&#8221;</p>						</div>
+			<style>/*! elementor - v3.19.0 - 07-02-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>A peça Darwin to Darwin de Johannes Wieland é um compêndio sobre indivíduos, relacionamentos e sua complexidade estratificada.</p><p>Cada intérprete incorpora um determinado personagem que se transforma ao longo da peça apresentando diversas facetas da humanidade.</p><p>&#8220;habitamos este corpo, evoluindo ao longo de sete milhões de anos. ele nos hospeda e nos fornece um lugar para existir. decifrar a antiga estratégia de sobrevivência, física e mental, é uma ladeira escorregadia: é incontrolável. uma perspectiva estreita e subjetiva. somos prisioneiros dos nossos instintos, querer ver o que querem que vejamos, querer saber o que querem que saibamos, querer sentir o que querem que sintamos, sim, há uma evolução, mas não há escapatória.</p><p>instintos.<br />sobrevivência.<br />reprodução.&#8221;</p>						</div>
 				</div>
 					</div>
 		</div>
@@ -199,13 +106,13 @@
 	<a itemprop="url" class="qodef-share-link" href="#" onclick="popUp=window.open(&#039;https://linkedin.com/shareArticle?mini=true&amp;url=%2Fportfolio-item%2Fruna-performance%2F&amp;title=Together+To+Get+There&#039;, &#039;popupwindow&#039;, &#039;scrollbars=yes,width=800,height=400&#039;);popUp.focus();return false;">
 	 				<span class="qodef-icon-font-awesome fab fa-linkedin-in qodef-social-network-icon"></span>			</a>
 </li><li class="qodef-pinterest-share">
-	<a itemprop="url" class="qodef-share-link" href="#" onclick="popUp=window.open(&#039;https://pinterest.com/pin/create/button/?url=%2Fportfolio-item%2Fruna-performance%2F&amp;description=Together+To+Get+There&amp;media=%2Fwp-content%2Fuploads%2F2020%2F06%2FTTGTcapture02.JPG.jpg&#039;, &#039;popupwindow&#039;, &#039;scrollbars=yes,width=800,height=400&#039;);popUp.focus();return false;">
+	<a itemprop="url" class="qodef-share-link" href="#" onclick="popUp=window.open(&#039;https://pinterest.com/pin/create/button/?url=%2Fportfolio-item%2Fruna-performance%2F&amp;description=Together+To+Get+There&amp;media=%2Fwp-content%2Fuploads%2F2020%2F06%2FTTGTcapture02.JPG-e1723976780439.jpg&#039;, &#039;popupwindow&#039;, &#039;scrollbars=yes,width=800,height=400&#039;);popUp.focus();return false;">
 	 				<span class="qodef-icon-font-awesome fab fa-pinterest qodef-social-network-icon"></span>			</a>
 </li><li class="qodef-tumblr-share">
 	<a itemprop="url" class="qodef-share-link" href="#" onclick="popUp=window.open(&#039;https://www.tumblr.com/share/link?url=%2Fportfolio-item%2Fruna-performance%2F&amp;name=Together+To+Get+There&amp;description=Um+encontro+entre+dois%2C+um+abra%C3%A7o%2C+a+sensa%C3%A7%C3%A3o+do+outro%2C+a+comunica%C3%A7%C3%A3o+sem+palavras%2C+a+sensa%C3%A7%C3%A3o+do+tempo+imerso+em+um+mundo+criado+entre+dois.+Um+apoio+m%C3%BAtuo.+Um+tempo+que+se+expande+e+para+como+se+nunca+fosse+acabar.+Uma+transforma%C3%A7%C3%A3o%2C+uma+mudan%C3%A7a.+Partes+come%C3%A7am+a+cair%2C+outras+segurar.+Esse+instante+%C3%A9+esquecido+e+%5B%26hellip%3B%5D&#039;, &#039;popupwindow&#039;, &#039;scrollbars=yes,width=800,height=400&#039;);popUp.focus();return false;">
 	 				<span class="qodef-icon-font-awesome fab fa-tumblr qodef-social-network-icon"></span>			</a>
 </li><li class="qodef-vk-share">
-	<a itemprop="url" class="qodef-share-link" href="#" onclick="popUp=window.open(&#039;https://vkontakte.ru/share.php?url=%2Fportfolio-item%2Fruna-performance%2F&amp;title=Together+To+Get+There&amp;description=Um+encontro+entre+dois%2C+um+abra%C3%A7o%2C+a+sensa%C3%A7%C3%A3o+do+outro%2C+a+comunica%C3%A7%C3%A3o+sem+palavras%2C+a+sensa%C3%A7%C3%A3o+do+tempo+imerso+em+um+mundo+criado+entre+dois.+Um+apoio+m%C3%BAtuo.+Um+tempo+que+se+expande+e+para+como+se+nunca+fosse+acabar.+Uma+transforma%C3%A7%C3%A3o%2C+uma+mudan%C3%A7a.+Partes+come%C3%A7am+a+cair%2C+outras+segurar.+Esse+instante+%C3%A9+esquecido+e+%5B%26hellip%3B%5D&amp;image=%2Fwp-content%2Fuploads%2F2020%2F06%2FTTGTcapture02.JPG.jpg&#039;, &#039;popupwindow&#039;, &#039;scrollbars=yes,width=800,height=400&#039;);popUp.focus();return false;">
+	<a itemprop="url" class="qodef-share-link" href="#" onclick="popUp=window.open(&#039;https://vkontakte.ru/share.php?url=%2Fportfolio-item%2Fruna-performance%2F&amp;title=Together+To+Get+There&amp;description=Um+encontro+entre+dois%2C+um+abra%C3%A7o%2C+a+sensa%C3%A7%C3%A3o+do+outro%2C+a+comunica%C3%A7%C3%A3o+sem+palavras%2C+a+sensa%C3%A7%C3%A3o+do+tempo+imerso+em+um+mundo+criado+entre+dois.+Um+apoio+m%C3%BAtuo.+Um+tempo+que+se+expande+e+para+como+se+nunca+fosse+acabar.+Uma+transforma%C3%A7%C3%A3o%2C+uma+mudan%C3%A7a.+Partes+come%C3%A7am+a+cair%2C+outras+segurar.+Esse+instante+%C3%A9+esquecido+e+%5B%26hellip%3B%5D&amp;image=%2Fwp-content%2Fuploads%2F2020%2F06%2FTTGTcapture02.JPG-e1723976780439.jpg&#039;, &#039;popupwindow&#039;, &#039;scrollbars=yes,width=800,height=400&#039;);popUp.focus();return false;">
 	 				<span class="qodef-icon-font-awesome fab fa-vk qodef-social-network-icon"></span>			</a>
 </li>	</ul>
 </div>		</div>
