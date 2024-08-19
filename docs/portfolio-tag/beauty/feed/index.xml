@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>beauty &#8211; SP.IN FEST</title>
+	<title>SP.IN FEST</title>
 	<atom:link href="/portfolio-tag/beauty/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Festival Internacional de Dança Contemporânea de SP</description>
-	<lastBuildDate>Tue, 01 Sep 2020 11:10:08 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 19 Aug 2024 21:08:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,27 +22,10 @@
 
 <image>
 	<url>/wp-content/uploads/2024/06/cropped-02-32x32.png</url>
-	<title>beauty &#8211; SP.IN FEST</title>
+	<title>SP.IN FEST</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
-	<item>
-		<title>Godiva Wilburg</title>
-		<link>/portfolio-item/godiva-wilburg/</link>
-					<comments>/portfolio-item/godiva-wilburg/#respond</comments>
-		
-		<dc:creator><![CDATA[spinfest]]></dc:creator>
-		<pubDate>Tue, 01 Sep 2020 11:10:08 +0000</pubDate>
-				<guid isPermaLink="false">https://zermatt.qodeinteractive.com/?post_type=portfolio-item&#038;p=3183</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>/portfolio-item/godiva-wilburg/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-	</channel>
+</channel>
 </rss>
