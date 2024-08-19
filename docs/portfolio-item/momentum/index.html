@@ -136,6 +136,11 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 	color: white
 }
 
+.qodef-contact-form-7 .wpcf7-response-output {
+	color: white;
+	border: none !important
+}
+
 .qodef-team-list.qodef-item-layout--info-on-hover .qodef-e-social,
 .qodef-team-list .qodef-e .qodef-team-member-social-icons
 {
@@ -385,42 +390,99 @@ text-underline-position: under
                 display: none;
             }</style>
 		
-<script type="text/javascript">// Snippet by WPOrbit | Visit: https://wporbit.net
-// Send Contact Form 7 data to ConvertKit Form
-	
-document.addEventListener( 'wpcf7submit', function( event ) {
-  var inputs = event.detail.inputs;
-	console.log('wpcf7submit', event.detail)
+<script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+    const forms = document.querySelectorAll('form');
+    
+    forms.forEach(form => {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            console.log("-> Form submitted", event);
+			this.classList.remove('init');
+            const formId = this.getAttribute('id');
+            const inputs = Array.from(this.elements).filter(el => el.name);
+            const formData = {};
+            inputs.forEach(input => {
+                formData[input.name] = input.value;
+            });
+            console.log('Form data:', formData);
+            let convertKitFormId, apiEndpoint;
 
-	if ( '177' == event.detail.contactFormId ) { // Replace 12345 with your Contact Form 7 ID
-	  jQuery.post("https://api.convertkit.com/v3/forms/6884291/subscribe", // Replace 12345 with Convert Kit Form ID
-		{
-			api_key: "wRezdkixpPf2BfS43EFwCA",
-			email: inputs[0].value
-		},
-		function(data, status){
-		  console.log(status);
-// 		  window.location.href = "/portfolio-category/workshop/"; // Redirect to a thank you page..
-	   });
-   }	
-	
-	if ( '7533' == event.detail.contactFormId ) { // Replace 12345 with your Contact Form 7 ID
-	  jQuery.post("https://api.convertkit.com/v3/forms/6884207/subscribe", // Replace 12345 with Convert Kit Form ID
-		{
-			api_key: "wRezdkixpPf2BfS43EFwCA",
-			email: inputs[1].value,
-			//tags: [1234, 5678],
-			first_name: inputs[0].value,
-			fields: {
-			  link: inputs[2].value
-			}
-		},
-		function(data, status){
-		  console.log(status);
-// 		  window.location.href = "/portfolio-category/workshop/"; // Redirect to a thank you page..
-	   });
-   }
-}, false );</script>
+            const responseOutput = document.querySelector('.wpcf7-response-output');
+			responseOutput.textContent = "";
+
+            const handleResponse = (response) => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            };
+
+            const updateUISuccess = () => {
+                if (responseOutput) {
+                    responseOutput.textContent = "Te enviamos um email, clique no link do email para confirmar sua inscrição";
+                }
+            };
+
+            const updateUIError = () => {
+                if (responseOutput) {
+                    responseOutput.textContent = "Erro, tente novamente";
+                }
+            };
+
+            if (formData._wpcf7 === '177') {
+                convertKitFormId = '6884291';
+                apiEndpoint = `https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`;
+                
+                fetch(apiEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        api_key: "wRezdkixpPf2BfS43EFwCA",
+                        email: formData["your-email"]
+                    })
+                })
+                .then(handleResponse)
+                .then(data => {
+                    console.log('Success:', data);
+                    updateUISuccess();
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    updateUIError();
+                });
+            } else if (formData._wpcf7 === '7533') {
+                convertKitFormId = '6884207';
+                apiEndpoint = `https://api.convertkit.com/v3/forms/${convertKitFormId}/subscribe`;
+                
+                fetch(apiEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        api_key: "wRezdkixpPf2BfS43EFwCA",
+                        email: formData["your-email"],
+                        first_name: formData.name,
+                        fields: {
+                            link: formData.link
+                        }
+                    })
+                })
+                .then(handleResponse)
+                .then(data => {
+                    console.log('Success:', data);
+                    updateUISuccess();
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    updateUIError();
+                });
+            }
+        });
+    });
+});</script>
 <link rel="stylesheet" id="rs-plugin-settings-css" href="/wp-content/plugins/revslider/public/assets/css/rs6.css" type="text/css" media="all">
 <style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
 <script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" defer async id="tp-tools-js"></script>
@@ -439,7 +501,7 @@ var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xml
 <script type="text/javascript" src="/wp-content/plugins/zermatt-core/assets/plugins/tweenmax/tweenmax.min.js" id="tweenmax-js"></script>
 <script type="text/javascript" id="zermatt-main-js-js-extra">
 /* <![CDATA[ */
-var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"7bb01995a8","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
+var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"6a68ae7439","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/js/main.min.js" id="zermatt-main-js-js"></script>
