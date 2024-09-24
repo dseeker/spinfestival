@@ -174,6 +174,31 @@ text-underline-position: under
 }
 #qodef-page-footer .qodef-grid-item:nth-child(4){
 	width: 15%
+}
+
+
+[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item {
+    width: auto !important;
+    margin: 0
+}
+
+[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(2) img {
+    max-height: 10vh
+}
+
+[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(4) img{
+	max-width: 30vw
+}
+
+#qodef-page-footer .wp-block-heading {
+	word-wrap: normal
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width:769px) {
+    .qodef-grid.qodef-responsive--custom.qodef-col-num--1024--2.qodef-layout--columns>.qodef-grid-inner>.qodef-grid-item:nth-child(2n+1) {
+        clear: none !important;
+    }
 }</style>
 		</head>
 <body class="home page-template page-template-page-full-width page-template-page-full-width-php page page-id-115 wp-custom-logo qode-framework-1.1.6 qodef-qi--no-touch qi-addons-for-elementor-1.6.7  qodef-custom-cursor--enabled qodef-content-behind-header qodef-header--standard qodef-header-appearance--none qodef-header--transparent qodef-content--behind-header qodef-mobile-header--standard qodef-drop-down-second--default zermatt-core-1.1.1 zermatt-1.4 qodef-content-grid-1400 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-8 elementor-page elementor-page-115" itemscope itemtype="https://schema.org/WebPage">
@@ -655,7 +680,7 @@ de Dança Contemporânea
 		<a class="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link qodef-text-hover" href="https://www.instagram.com/sp.in.festival/" target="_self">	<span class="qodef-m-text">Acompanhe nossos eventos pelo Instagram</span>			<svg class="qodef-btn-textual-icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 11.871 11.854">			<g>				<path stroke-miterlimit="10" fill="none" d="M0 .5h11.372v11.354"></path><path stroke-miterlimit="10" d="M11.371.5L.759 11.113"></path>			</g>			<g>				<path stroke-miterlimit="10" fill="none" d="M0 .5h11.372v11.354"></path><path stroke-miterlimit="10" d="M11.371.5L.759 11.113"></path>			</g>		</svg>	</a>    </div>
 </div>		</div>
 				</div>
-				<div class="elementor-element elementor-element-96cb3aa elementor-widget elementor-widget-zermatt_core_awards_list" data-id="96cb3aa" data-element_type="widget" data-widget_type="zermatt_core_awards_list.default">
+				<div class="elementor-element elementor-element-96cb3aa elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-zermatt_core_awards_list" data-id="96cb3aa" data-element_type="widget" data-widget_type="zermatt_core_awards_list.default">
 				<div class="elementor-widget-container">
 			<div class="qodef-shortcode qodef-m  qodef-awards-list qodef-grid qodef-layout--columns qodef-gutter--no qodef-layout--text-below">
 	<div class="qodef-grid-inner clear">
@@ -1359,10 +1384,9 @@ de Dança Contemporânea
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-2d66f345 elementor-widget elementor-widget-text-editor" data-id="2d66f345" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<h5><span style="color: #ffffff;">São Paulo, Brasil</span></h5>
-<h5><span style="color: #ffffff;">Local a definir</span></h5>
-<h5><span style="color: #ffffff;"><a style="color: #ffffff;" href="tel:441793123456" target="_blank" rel="noopener">55 1793 123 456</a></span></h5>
-<h5><a href="mailto:contato@spinfestival.com.br"><span style="color: #ffffff; background-color: #000000;">contato@spinfestival.com.br</span></a></h5>						</div>
+							<h6><span style="color: #ffffff;">São Paulo, Brasil</span></h6>
+<h6><span style="color: #ffffff;"><a style="color: #ffffff;" href="tel:441793123456" target="_blank" rel="noopener">55 1793 123 456</a></span></h6>
+<h6><a href="mailto:contato@spinfestival.com.br"><span style="color: #ffffff; background-color: #000000;">contato@spinfestival.com.br</span></a></h6>						</div>
 				</div>
 					</div>
 		</div>
@@ -1370,7 +1394,7 @@ de Dança Contemporânea
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-4573e834 elementor-widget elementor-widget-text-editor" data-id="4573e834" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<h4><a href="https://www.instagram.com/sp.in.festival/" target="_blank" rel="noopener"><span style="color: #ffffff;">Instagram</span></a></h4>						</div>
+							<h3><a href="https://www.instagram.com/sp.in.festival/" target="_blank" rel="noopener"><span style="color: #ffffff;">Instagram</span></a></h3>						</div>
 				</div>
 					</div>
 		</div>
@@ -1672,7 +1696,7 @@ var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xml
 <script type="text/javascript" src="/wp-content/plugins/zermatt-core/assets/plugins/tweenmax/tweenmax.min.js" id="tweenmax-js"></script>
 <script type="text/javascript" id="zermatt-main-js-js-extra">
 /* <![CDATA[ */
-var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"90fa9e7451","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
+var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"38c4336f21","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/js/main.min.js" id="zermatt-main-js-js"></script>
