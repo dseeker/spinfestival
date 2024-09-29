@@ -155,7 +155,7 @@ text-underline-position: under
 }
 
 #qodef-page-footer .qodef-grid-item:nth-child(1){
-	width: 30%
+	width: 18%
 }
 #qodef-page-footer .qodef-grid-item:nth-child(2){
 	width: 15%
@@ -167,20 +167,6 @@ text-underline-position: under
 	width: 15%
 }
 
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item {
-    width: auto !important;
-    margin: 0
-}
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(2) img {
-    max-height: 10vh
-}
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(4) img{
-	max-width: 30vw
-}
-
 #qodef-page-footer .wp-block-heading {
 	word-wrap: normal
 }
@@ -190,6 +176,44 @@ text-underline-position: under
     .qodef-grid.qodef-responsive--custom.qodef-col-num--1024--2.qodef-layout--columns>.qodef-grid-inner>.qodef-grid-item:nth-child(2n+1) {
         clear: none !important;
     }
+}
+
+
+#qodef-page-footer .qodef-grid-inner .qodef-grid-item:nth-child(4):after{
+    content: '';
+    position: absolute;
+    top: -1vw;
+    right: -10vw;
+    background: url(/wp-content/uploads/2024/09/logo-ministerio-vertical.png) no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 10vw;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  #qodef-page-footer .qodef-grid-item {
+			width: auto !important;
+			margin: 0
+	}
+	#qodef-page-footer .qodef-grid-item:nth-child(1) img {
+    max-height: 10vh
+	}
+	#qodef-page-footer .qodef-grid-item:nth-child(2) img {
+    max-height: 10vh
+	}
+
+  #qodef-page-footer .qodef-grid-item:nth-child(4) img{
+		max-width: 30vw
+	}
+	#qodef-page-footer .qodef-grid-inner .qodef-grid-item:nth-child(4):after{
+			top: -3vw;
+			right: -45vw;
+			width: 25vw;
+			height: 25vw;
+
+	}
 }</style>
 		</head>
 <body class="archive tax-portfolio-category term-workshop term-83 wp-custom-logo qode-framework-1.1.6 qodef-qi--no-touch qi-addons-for-elementor-1.6.7 qodef-back-to-top--enabled qodef-custom-cursor--enabled  qodef-header--standard qodef-header-appearance--none qodef-mobile-header--standard qodef-drop-down-second--default zermatt-core-1.1.1 zermatt-1.4 qodef-content-grid-1400 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-8" itemscope itemtype="https://schema.org/WebPage">
@@ -257,10 +281,6 @@ text-underline-position: under
 							<div id="block-14" class="widget widget_block widget_media_gallery" data-area="footer_top_area_column_1">
 <figure class="wp-block-gallery has-nested-images columns-2 wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-full"><img decoding="async" data-id="8732" src="/wp-content/uploads/2024/09/logo-rouanet-dark-e1726934429174.png" alt="Lei de Icentivo a Cultura Rouanet" class="wp-image-8732"></figure>
-
-
-
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="545" height="545" data-id="8803" src="/wp-content/uploads/2024/09/logo-ministerio-vertical.png" alt="Ministério da Cultura" class="wp-image-8803" srcset="/wp-content/uploads/2024/09/logo-ministerio-vertical.png 545w, /wp-content/uploads/2024/09/logo-ministerio-vertical-300x300.png 300w, /wp-content/uploads/2024/09/logo-ministerio-vertical-150x150.png 150w" sizes="(max-width: 545px) 100vw, 545px"></figure>
 </figure>
 </div>						</div>
 											<div class="qodef-grid-item">
@@ -284,7 +304,7 @@ text-underline-position: under
 
 
 
-<figure class="wp-block-image size-thumbnail"><img loading="lazy" decoding="async" width="150" height="150" data-id="8757" src="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png" alt="Centro Cultural de São Paulo" class="wp-image-8757" srcset="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png 150w, /wp-content/uploads/2024/09/logo-ccsp-dark-300x300.png 300w, /wp-content/uploads/2024/09/logo-ccsp-dark.png 600w" sizes="(max-width: 150px) 100vw, 150px"></figure>
+<figure class="wp-block-image size-thumbnail"><img decoding="async" width="150" height="150" data-id="8757" src="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png" alt="Centro Cultural de São Paulo" class="wp-image-8757" srcset="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png 150w, /wp-content/uploads/2024/09/logo-ccsp-dark-300x300.png 300w, /wp-content/uploads/2024/09/logo-ccsp-dark.png 600w" sizes="(max-width: 150px) 100vw, 150px"></figure>
 
 
 
@@ -299,8 +319,10 @@ text-underline-position: under
 							<div id="block-9" class="widget widget_block" data-area="footer_top_area_column_4">
 <h6 class="wp-block-heading">REALIZAÇÃO</h6>
 </div>
-<div id="block-10" class="widget widget_block widget_media_image" data-area="footer_top_area_column_4">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="201" height="201" src="/wp-content/uploads/2024/09/logo-frida-dark.png" alt="Frida" class="wp-image-8737" style="aspect-ratio:16/9;object-fit:cover" srcset="/wp-content/uploads/2024/09/logo-frida-dark.png 201w, /wp-content/uploads/2024/09/logo-frida-dark-150x150.png 150w" sizes="(max-width: 201px) 100vw, 201px"></figure>
+<div id="block-18" class="widget widget_block widget_media_gallery" data-area="footer_top_area_column_4">
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="600" data-id="8947" src="/wp-content/uploads/2024/09/logo-frida.png" alt="" class="wp-image-8947" style="aspect-ratio:16/9;object-fit:cover" srcset="/wp-content/uploads/2024/09/logo-frida.png 600w, /wp-content/uploads/2024/09/logo-frida-300x300.png 300w, /wp-content/uploads/2024/09/logo-frida-150x150.png 150w" sizes="(max-width: 600px) 100vw, 600px"></figure>
+</figure>
 </div>						</div>
 									</div>
 			</div>
@@ -497,7 +519,7 @@ text-underline-position: under
         });
     });
 });</script>
-<style id="core-block-supports-inline-css" type="text/css">.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}</style>
+<style id="core-block-supports-inline-css" type="text/css">.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-3{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}</style>
 <link rel="stylesheet" id="rs-plugin-settings-css" href="/wp-content/plugins/revslider/public/assets/css/rs6.css" type="text/css" media="all">
 <style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
 <script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" defer async id="tp-tools-js"></script>
@@ -516,7 +538,7 @@ var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xml
 <script type="text/javascript" src="/wp-content/plugins/zermatt-core/assets/plugins/tweenmax/tweenmax.min.js" id="tweenmax-js"></script>
 <script type="text/javascript" id="zermatt-main-js-js-extra">
 /* <![CDATA[ */
-var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"38c4336f21","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
+var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"c1e40d76bb","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/js/main.min.js" id="zermatt-main-js-js"></script>
