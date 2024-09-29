@@ -164,7 +164,7 @@ text-underline-position: under
 }
 
 #qodef-page-footer .qodef-grid-item:nth-child(1){
-	width: 30%
+	width: 18%
 }
 #qodef-page-footer .qodef-grid-item:nth-child(2){
 	width: 15%
@@ -176,20 +176,6 @@ text-underline-position: under
 	width: 15%
 }
 
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item {
-    width: auto !important;
-    margin: 0
-}
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(2) img {
-    max-height: 10vh
-}
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(4) img{
-	max-width: 30vw
-}
-
 #qodef-page-footer .wp-block-heading {
 	word-wrap: normal
 }
@@ -199,6 +185,44 @@ text-underline-position: under
     .qodef-grid.qodef-responsive--custom.qodef-col-num--1024--2.qodef-layout--columns>.qodef-grid-inner>.qodef-grid-item:nth-child(2n+1) {
         clear: none !important;
     }
+}
+
+
+#qodef-page-footer .qodef-grid-inner .qodef-grid-item:nth-child(4):after{
+    content: '';
+    position: absolute;
+    top: -1vw;
+    right: -10vw;
+    background: url(/wp-content/uploads/2024/09/logo-ministerio-vertical.png) no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 10vw;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  #qodef-page-footer .qodef-grid-item {
+			width: auto !important;
+			margin: 0
+	}
+	#qodef-page-footer .qodef-grid-item:nth-child(1) img {
+    max-height: 10vh
+	}
+	#qodef-page-footer .qodef-grid-item:nth-child(2) img {
+    max-height: 10vh
+	}
+
+  #qodef-page-footer .qodef-grid-item:nth-child(4) img{
+		max-width: 30vw
+	}
+	#qodef-page-footer .qodef-grid-inner .qodef-grid-item:nth-child(4):after{
+			top: -3vw;
+			right: -45vw;
+			width: 25vw;
+			height: 25vw;
+
+	}
 }</style>
 		</head>
 <body class="home page-template page-template-page-full-width page-template-page-full-width-php page page-id-115 wp-custom-logo qode-framework-1.1.6 qodef-qi--no-touch qi-addons-for-elementor-1.6.7  qodef-custom-cursor--enabled qodef-content-behind-header qodef-header--standard qodef-header-appearance--none qodef-header--transparent qodef-content--behind-header qodef-mobile-header--standard qodef-drop-down-second--default zermatt-core-1.1.1 zermatt-1.4 qodef-content-grid-1400 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-8 elementor-page elementor-page-115" itemscope itemtype="https://schema.org/WebPage">
@@ -265,7 +289,7 @@ Contemporânea
 							</rs-layer><!--
 
 							--><rs-layer id="slider-2-slide-4-layer-5" data-type="text" data-xy="x:r,r,l,c;xo:490px,410px,50px,0;yo:133px,135px,129px,99px;" data-text="w:normal;s:17;" data-dim="minh:0px,none,none,none;" data-vbility="t,t,t,f" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_999="o:0;st:w;" style="z-index:10;font-family:'DM Sans';">São Paulo, Brasil<br>
-Local a definir 
+ 
 							</rs-layer><!--
 
 							--><rs-layer id="slider-2-slide-4-layer-7" data-type="text" data-xy="x:r;xo:136px,106px,50px,20px;yo:128px,135px,121px,85px;" data-text="w:normal;s:35,35,35,26;l:41,41,41,24;fw:500;" data-basealign="slide" data-rsp_o="off" data-rsp_bd="off" data-frame_999="o:0;st:w;" style="z-index:11;font-family:'DM Sans';"><a href="/inscricoes/" target="_self" style="color:white;text-decoration:none">Workshops</a><br>
@@ -1436,10 +1460,6 @@ de Dança Contemporânea
 							<div id="block-14" class="widget widget_block widget_media_gallery" data-area="footer_top_area_column_1">
 <figure class="wp-block-gallery has-nested-images columns-2 wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-full"><img decoding="async" data-id="8732" src="/wp-content/uploads/2024/09/logo-rouanet-dark-e1726934429174.png" alt="Lei de Icentivo a Cultura Rouanet" class="wp-image-8732"></figure>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="545" height="545" data-id="8803" src="/wp-content/uploads/2024/09/logo-ministerio-vertical.png" alt="Ministério da Cultura" class="wp-image-8803" srcset="/wp-content/uploads/2024/09/logo-ministerio-vertical.png 545w, /wp-content/uploads/2024/09/logo-ministerio-vertical-300x300.png 300w, /wp-content/uploads/2024/09/logo-ministerio-vertical-150x150.png 150w" sizes="(max-width: 545px) 100vw, 545px"></figure>
 </figure>
 </div>						</div>
 											<div class="qodef-grid-item">
@@ -1478,8 +1498,10 @@ de Dança Contemporânea
 							<div id="block-9" class="widget widget_block" data-area="footer_top_area_column_4">
 <h6 class="wp-block-heading">REALIZAÇÃO</h6>
 </div>
-<div id="block-10" class="widget widget_block widget_media_image" data-area="footer_top_area_column_4">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="201" height="201" src="/wp-content/uploads/2024/09/logo-frida-dark.png" alt="Frida" class="wp-image-8737" style="aspect-ratio:16/9;object-fit:cover" srcset="/wp-content/uploads/2024/09/logo-frida-dark.png 201w, /wp-content/uploads/2024/09/logo-frida-dark-150x150.png 150w" sizes="(max-width: 201px) 100vw, 201px"></figure>
+<div id="block-18" class="widget widget_block widget_media_gallery" data-area="footer_top_area_column_4">
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="600" data-id="8947" src="/wp-content/uploads/2024/09/logo-frida.png" alt="" class="wp-image-8947" style="aspect-ratio:16/9;object-fit:cover" srcset="/wp-content/uploads/2024/09/logo-frida.png 600w, /wp-content/uploads/2024/09/logo-frida-300x300.png 300w, /wp-content/uploads/2024/09/logo-frida-150x150.png 150w" sizes="(max-width: 600px) 100vw, 600px"></figure>
+</figure>
 </div>						</div>
 									</div>
 			</div>
@@ -1676,7 +1698,7 @@ de Dança Contemporânea
 <link href="https://fonts.googleapis.com/css?family=DM+Sans:400%2C700%2C500%7CRoboto:500%2C400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
 <script type="text/javascript">if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}</script>
-<style id="core-block-supports-inline-css" type="text/css">.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}</style>
+<style id="core-block-supports-inline-css" type="text/css">.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-3{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}</style>
 <link rel="stylesheet" id="e-animations-css" href="/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="rs-plugin-settings-css" href="/wp-content/plugins/revslider/public/assets/css/rs6.css" type="text/css" media="all">
 <style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
@@ -1696,7 +1718,7 @@ var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xml
 <script type="text/javascript" src="/wp-content/plugins/zermatt-core/assets/plugins/tweenmax/tweenmax.min.js" id="tweenmax-js"></script>
 <script type="text/javascript" id="zermatt-main-js-js-extra">
 /* <![CDATA[ */
-var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"38c4336f21","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
+var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"c1e40d76bb","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/js/main.min.js" id="zermatt-main-js-js"></script>

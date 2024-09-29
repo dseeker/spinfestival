@@ -164,7 +164,7 @@ text-underline-position: under
 }
 
 #qodef-page-footer .qodef-grid-item:nth-child(1){
-	width: 30%
+	width: 18%
 }
 #qodef-page-footer .qodef-grid-item:nth-child(2){
 	width: 15%
@@ -176,20 +176,6 @@ text-underline-position: under
 	width: 15%
 }
 
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item {
-    width: auto !important;
-    margin: 0
-}
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(2) img {
-    max-height: 10vh
-}
-
-[data-elementor-device-mode="mobile"] #qodef-page-footer .qodef-grid-item:nth-child(4) img{
-	max-width: 30vw
-}
-
 #qodef-page-footer .wp-block-heading {
 	word-wrap: normal
 }
@@ -199,6 +185,44 @@ text-underline-position: under
     .qodef-grid.qodef-responsive--custom.qodef-col-num--1024--2.qodef-layout--columns>.qodef-grid-inner>.qodef-grid-item:nth-child(2n+1) {
         clear: none !important;
     }
+}
+
+
+#qodef-page-footer .qodef-grid-inner .qodef-grid-item:nth-child(4):after{
+    content: '';
+    position: absolute;
+    top: -1vw;
+    right: -10vw;
+    background: url(/wp-content/uploads/2024/09/logo-ministerio-vertical.png) no-repeat;
+    background-size: contain;
+    width: 10vw;
+    height: 10vw;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  #qodef-page-footer .qodef-grid-item {
+			width: auto !important;
+			margin: 0
+	}
+	#qodef-page-footer .qodef-grid-item:nth-child(1) img {
+    max-height: 10vh
+	}
+	#qodef-page-footer .qodef-grid-item:nth-child(2) img {
+    max-height: 10vh
+	}
+
+  #qodef-page-footer .qodef-grid-item:nth-child(4) img{
+		max-width: 30vw
+	}
+	#qodef-page-footer .qodef-grid-inner .qodef-grid-item:nth-child(4):after{
+			top: -3vw;
+			right: -45vw;
+			width: 25vw;
+			height: 25vw;
+
+	}
 }</style>
 		</head>
 <body class="page-template page-template-page-full-width page-template-page-full-width-php page page-id-64 wp-custom-logo qode-framework-1.1.6 qodef-qi--no-touch qi-addons-for-elementor-1.6.7 qodef-back-to-top--enabled qodef-custom-cursor--enabled  qodef-header--standard qodef-header-appearance--none qodef-mobile-header--standard qodef-drop-down-second--default zermatt-core-1.1.1 zermatt-1.4 qodef-content-grid-1400 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-8 elementor-page elementor-page-64" itemscope itemtype="https://schema.org/WebPage">
@@ -269,11 +293,11 @@ text-underline-position: under
 				</div>
 				<div class="elementor-element elementor-element-02f2f70 elementor-widget elementor-widget-text-editor" data-id="02f2f70" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<h2><span style="font-weight: 400; color: #00ff00;"><strong>SP.IN é um novo movimento <span style="color: #000000;">&#8211; nascemos do compromisso com a criação independente. Rejeitamos o familiar e o confortável. Desafiamos a nós mesmos e às nossas comunidades a pensar diferente, a nos mover de forma diferente. Um lugar onde o convencional é deixado para trás. </span></strong></span></h2>						</div>
+							<h2><span style="font-weight: 400; color: #00ff00;"><strong><span style="color: #00ff00;">N</span>ascemos do compromisso com a criação independente.<span style="color: #000000;"> Rejeitamos o familiar e o confortável. Desafiamos a nós mesmos e às nossas comunidades a pensar diferente, a nos mover de forma diferente. Um lugar onde o convencional é deixado para trás. </span></strong></span></h2>						</div>
 				</div>
 				<div class="elementor-element elementor-element-510c938 elementor-widget elementor-widget-text-editor" data-id="510c938" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<h3><span style="color: #00ff00;"><span style="color: #000000;"><b>SP.IN, um chamado para ultrapassar limites, sair das zonas de conforto e imaginar novas possibilidades para a dança e o movimento.</b></span><strong> Um terreno fértil  para aqueles que estão prontos se perder. É para o artista que busca se libertar da tradição, para o dançarino que anseia por novos desafios.</strong></span></h3>						</div>
+							<h3><span style="color: #00ff00;"><span style="color: #000000;"><b>SP.IN, um chamado para ultrapassar limites, sair das zonas de conforto e imaginar novas possibilidades para a dança e o movimento.</b></span><strong> Um terreno fértil  para aqueles que estão prontos para se perder. É para o artista que busca se libertar da tradição, para o dançarino que anseia por novos desafios.</strong></span></h3>						</div>
 				</div>
 				<div class="elementor-element elementor-element-ee698e7 elementor-widget elementor-widget-heading" data-id="ee698e7" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -281,15 +305,15 @@ text-underline-position: under
 				</div>
 				<div class="elementor-element elementor-element-9f3d4d7 elementor-widget elementor-widget-text-editor" data-id="9f3d4d7" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<h3 style="text-align: right;"><span style="color: #00ff00;"><strong>SP.IN; um ato radical de democratização. <span style="color: #000000;">Acreditamos no poder dos espaços culturais para democratizar o acesso às artes. Reunimos artistas internacionais líderes, mestres em suas áreas, não para se apresentarem à distância, mas para se envolverem diretamente com nossas comunidades. O acesso gratuito a esses artistas é um ato radical de inclusão e empoderamento, garantindo que a criatividade e o aprendizado não sejam privilégios, mas direitos acessíveis a todos. Estamos aqui para criar um espaço onde a alta qualidade de educação artística seja acessível a todos e onde os limites do que é possível na dança sejam constantemente redefinidos.</span></strong></span></h3>						</div>
+							<h3><span style="color: #00ff00;"><strong>SP.IN; um ato radical de democratização. <span style="color: #000000;">Acreditamos no poder dos espaços culturais para democratizar o acesso às artes. Reunimos artistas internacionais líderes, mestres em suas áreas, não para se apresentarem à distância, mas para se envolverem diretamente com nossas comunidades. O acesso gratuito a esses artistas é um ato radical de inclusão e empoderamento, garantindo que a criatividade e o aprendizado não sejam privilégios, mas direitos acessíveis a todos. Estamos aqui para criar um espaço onde a alta qualidade de educação artística seja acessível a todos e onde os limites do que é possível na dança sejam constantemente redefinidos.</span></strong></span></h3>						</div>
 				</div>
 				<div class="elementor-element elementor-element-cfcef16 elementor-widget elementor-widget-text-editor" data-id="cfcef16" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<h3><strong><span style="color: #00ff00;">Aqui, a dança não é apenas uma forma de expressão, mas um convite à reflexão, à inovação e à co-criação</span></strong></h3>						</div>
+							<h3 style="text-align: center;"><strong><span style="color: #00ff00;">Aqui, a dança não é apenas uma forma de expressão, mas um convite à reflexão, à inovação e à co-criação</span></strong></h3>						</div>
 				</div>
-				<div class="elementor-element elementor-element-d43f4f6 elementor-widget elementor-widget-heading" data-id="d43f4f6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-302720a elementor-widget elementor-widget-heading" data-id="302720a" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">SP.IN é mais do que um festival — é um movimento.</h1>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">SP.IN - Mais que um festival. Um movimento.</h2>		</div>
 				</div>
 					</div>
 		</div>
@@ -311,10 +335,6 @@ text-underline-position: under
 							<div id="block-14" class="widget widget_block widget_media_gallery" data-area="footer_top_area_column_1">
 <figure class="wp-block-gallery has-nested-images columns-2 wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-full"><img decoding="async" data-id="8732" src="/wp-content/uploads/2024/09/logo-rouanet-dark-e1726934429174.png" alt="Lei de Icentivo a Cultura Rouanet" class="wp-image-8732"></figure>
-
-
-
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="545" height="545" data-id="8803" src="/wp-content/uploads/2024/09/logo-ministerio-vertical.png" alt="Ministério da Cultura" class="wp-image-8803" srcset="/wp-content/uploads/2024/09/logo-ministerio-vertical.png 545w, /wp-content/uploads/2024/09/logo-ministerio-vertical-300x300.png 300w, /wp-content/uploads/2024/09/logo-ministerio-vertical-150x150.png 150w" sizes="(max-width: 545px) 100vw, 545px"></figure>
 </figure>
 </div>						</div>
 											<div class="qodef-grid-item">
@@ -338,7 +358,7 @@ text-underline-position: under
 
 
 
-<figure class="wp-block-image size-thumbnail"><img loading="lazy" decoding="async" width="150" height="150" data-id="8757" src="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png" alt="Centro Cultural de São Paulo" class="wp-image-8757" srcset="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png 150w, /wp-content/uploads/2024/09/logo-ccsp-dark-300x300.png 300w, /wp-content/uploads/2024/09/logo-ccsp-dark.png 600w" sizes="(max-width: 150px) 100vw, 150px"></figure>
+<figure class="wp-block-image size-thumbnail"><img decoding="async" width="150" height="150" data-id="8757" src="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png" alt="Centro Cultural de São Paulo" class="wp-image-8757" srcset="/wp-content/uploads/2024/09/logo-ccsp-dark-150x150.png 150w, /wp-content/uploads/2024/09/logo-ccsp-dark-300x300.png 300w, /wp-content/uploads/2024/09/logo-ccsp-dark.png 600w" sizes="(max-width: 150px) 100vw, 150px"></figure>
 
 
 
@@ -353,8 +373,10 @@ text-underline-position: under
 							<div id="block-9" class="widget widget_block" data-area="footer_top_area_column_4">
 <h6 class="wp-block-heading">REALIZAÇÃO</h6>
 </div>
-<div id="block-10" class="widget widget_block widget_media_image" data-area="footer_top_area_column_4">
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="201" height="201" src="/wp-content/uploads/2024/09/logo-frida-dark.png" alt="Frida" class="wp-image-8737" style="aspect-ratio:16/9;object-fit:cover" srcset="/wp-content/uploads/2024/09/logo-frida-dark.png 201w, /wp-content/uploads/2024/09/logo-frida-dark-150x150.png 150w" sizes="(max-width: 201px) 100vw, 201px"></figure>
+<div id="block-18" class="widget widget_block widget_media_gallery" data-area="footer_top_area_column_4">
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="600" data-id="8947" src="/wp-content/uploads/2024/09/logo-frida.png" alt="" class="wp-image-8947" style="aspect-ratio:16/9;object-fit:cover" srcset="/wp-content/uploads/2024/09/logo-frida.png 600w, /wp-content/uploads/2024/09/logo-frida-300x300.png 300w, /wp-content/uploads/2024/09/logo-frida-150x150.png 150w" sizes="(max-width: 600px) 100vw, 600px"></figure>
+</figure>
 </div>						</div>
 									</div>
 			</div>
@@ -551,7 +573,7 @@ text-underline-position: under
         });
     });
 });</script>
-<style id="core-block-supports-inline-css" type="text/css">.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-3{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}</style>
+<style id="core-block-supports-inline-css" type="text/css">.wp-block-gallery.wp-block-gallery-2{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-3{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}.wp-block-gallery.wp-block-gallery-4{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}</style>
 <link rel="stylesheet" id="rs-plugin-settings-css" href="/wp-content/plugins/revslider/public/assets/css/rs6.css" type="text/css" media="all">
 <style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
 <script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" defer async id="tp-tools-js"></script>
@@ -570,7 +592,7 @@ var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xml
 <script type="text/javascript" src="/wp-content/plugins/zermatt-core/assets/plugins/tweenmax/tweenmax.min.js" id="tweenmax-js"></script>
 <script type="text/javascript" id="zermatt-main-js-js-extra">
 /* <![CDATA[ */
-var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"38c4336f21","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
+var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"c1e40d76bb","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/js/main.min.js" id="zermatt-main-js-js"></script>
