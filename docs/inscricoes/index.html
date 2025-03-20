@@ -46,6 +46,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
 <link rel="stylesheet" id="contact-form-7-css" href="/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="ctf_styles-css" href="/wp-content/plugins/custom-twitter-feeds/css/ctf-styles.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="ui-font-css" href="/wp-content/plugins/wp-accessibility/toolbar/fonts/css/a11y-toolbar.css" type="text/css" media="all">
+<link rel="stylesheet" id="ui-a11y-css" href="/wp-content/plugins/wp-accessibility/toolbar/css/a11y.css" type="text/css" media="all">
+<link rel="stylesheet" id="ui-fontsize.css-css" href="/wp-content/plugins/wp-accessibility/toolbar/css/a11y-fontsize.css" type="text/css" media="all">
+<style id="ui-fontsize.css-inline-css" type="text/css">html { --wpa-font-size: clamp( 24px, 1.5rem, 36px ); --wpa-h1-size : clamp( 48px, 3rem, 72px ); --wpa-h2-size : clamp( 40px, 2.5rem, 60px ); --wpa-h3-size : clamp( 32px, 2rem, 48px ); --wpa-h4-size : clamp( 28px, 1.75rem, 42px ); --wpa-sub-list-size: 1.1em; --wpa-sub-sub-list-size: 1em; }</style>
+<link rel="stylesheet" id="wpa-style-css" href="/wp-content/plugins/wp-accessibility/css/wpa-style.css" type="text/css" media="all">
+<style id="wpa-style-inline-css" type="text/css">:focus { outline: 2px solid#233c7f!important; outline-offset: 2px !important; }
+		:root { --admin-bar-top : 7px; }</style>
 <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css" href="/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css" href="/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="qi-addons-for-elementor-style-css" href="/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css" type="text/css" media="all">
@@ -68,14 +75,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="/wp-content/plugins/wp-accessibility/js/fingerprint.min.js" id="wpa-fingerprintjs-js"></script>
 <script type="text/javascript" id="wpstg-global-js-extra">
 /* <![CDATA[ */
-var wpstg = {"nonce":"77f51135b1"};
+var wpstg = {"nonce":"249f2fe03e"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/plugins/wp-staging-pro/assets/js/dist/wpstg-blank-loader.js" id="wpstg-global-js"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.7.1">
+<meta name="generator" content="WordPress 6.7.2">
 <link rel="canonical" href="/inscricoes/">
 <link rel="shortlink" href="/?p=1941">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Finscricoes%2F">
@@ -242,7 +250,7 @@ text-underline-position: under
 	}
 }</style>
 		</head>
-<body class="page-template page-template-page-full-width page-template-page-full-width-php page page-id-1941 wp-custom-logo qode-framework-1.1.6 qodef-qi--no-touch qi-addons-for-elementor-1.6.7 qodef-back-to-top--enabled qodef-custom-cursor--enabled  qodef-header--standard qodef-header-appearance--none qodef-header--transparent qodef-mobile-header--standard qodef-drop-down-second--default zermatt-core-1.1.1 zermatt-1.4 qodef-content-grid-1400 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-8 elementor-page elementor-page-1941" itemscope itemtype="https://schema.org/WebPage">
+<body class="page-template page-template-page-full-width page-template-page-full-width-php page page-id-1941 wp-custom-logo qode-framework-1.1.6 wpa-excerpt qodef-qi--no-touch qi-addons-for-elementor-1.6.7 qodef-back-to-top--enabled qodef-custom-cursor--enabled  qodef-header--standard qodef-header-appearance--none qodef-header--transparent qodef-mobile-header--standard qodef-drop-down-second--default zermatt-core-1.1.1 zermatt-1.4 qodef-content-grid-1400 qodef-header-standard--left qodef-search--covers-header elementor-default elementor-kit-8 elementor-page elementor-page-1941" itemscope itemtype="https://schema.org/WebPage">
 		<div id="qodef-page-wrapper" class="">
 		<header id="qodef-page-header">
 		<div id="qodef-page-header-inner" class=" qodef-border--full">
@@ -439,7 +447,7 @@ Para isso, precisamos conhecer melhor cada um de vocês! Todas as inscrições s
 <div class="screen-reader-response">
 <p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
 </div>
-<form action="/inscricoes/?simply_static_page=16997#wpcf7-f7533-p1941-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="/inscricoes/?simply_static_page=17765#wpcf7-f7533-p1941-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="7533">
 <input type="hidden" name="_wpcf7_version" value="5.9.8">
@@ -864,6 +872,18 @@ Para isso, precisamos conhecer melhor cada um de vocês! Todas as inscrições s
 <style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
 <script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rbtools.min.js" defer async id="tp-tools-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/revslider/public/assets/js/rs6.min.js" defer async id="revmin-js"></script>
+<script type="text/javascript" id="wpa-toolbar-js-extra">
+/* <![CDATA[ */
+var wpatb = {"location":"body","is_rtl":"ltr","is_right":"default","responsive":"a11y-responsive","contrast":"Toggle High Contrast","grayscale":"Toggle Grayscale","fontsize":"Toggle Font size","enable_grayscale":"false","enable_fontsize":"true","enable_contrast":"true"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wp-accessibility/js/wpa-toolbar.min.js" id="wpa-toolbar-js"></script>
+<script type="text/javascript" id="ui-a11y-js-extra">
+/* <![CDATA[ */
+var wpa11y = {"path":"\/wp-content\/plugins\/wp-accessibility\/toolbar\/css\/a11y-contrast.css?version=2.1.15"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wp-accessibility/js/a11y.min.js" id="ui-a11y-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
 <script type="text/javascript" id="qi-addons-for-elementor-script-js-extra">
 /* <![CDATA[ */
@@ -878,7 +898,7 @@ var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xml
 <script type="text/javascript" src="/wp-content/plugins/zermatt-core/assets/plugins/tweenmax/tweenmax.min.js" id="tweenmax-js"></script>
 <script type="text/javascript" id="zermatt-main-js-js-extra">
 /* <![CDATA[ */
-var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"05efe69a72","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
+var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-json\/","restNonce":"b12996eba0","paginationRestRoute":"zermatt\/v1\/get-posts","headerHeight":100,"mobileHeaderHeight":70}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/js/main.min.js" id="zermatt-main-js-js"></script>
@@ -888,6 +908,18 @@ var qodefGlobal = {"vars":{"adminBarHeight":0,"topAreaHeight":0,"restUrl":"\/wp-
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/plugins/appear/jquery.appear.js" id="jquery-appear-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js" id="swiper-js"></script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/assets/plugins/magnific-popup/jquery.magnific-popup.min.js" id="jquery-magnific-popup-js"></script>
+<script type="text/javascript" id="wpa.longdesc-js-extra">
+/* <![CDATA[ */
+var wpald = {"url":"\/wp-json\/wp\/v2\/media","type":"jquery","home":"","text":"<span class=\"dashicons dashicons-media-text\" aria-hidden=\"true\"><\/span><span class=\"screen-reader\">Long Description<\/span>"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wp-accessibility/js/longdesc.min.js" id="wpa.longdesc-js"></script>
+<script type="text/javascript" id="wp-accessibility-js-extra">
+/* <![CDATA[ */
+var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"dir":"ltr","lang":"en-US","titles":"1","labels":"1","wpalabels":{"s":"Search","author":"Name","email":"Email","url":"Website","comment":"Comment"},"current":"","errors":"","tracking":"1","ajaxurl":"\/wp-admin\/admin-ajax.php","security":"7630c0a795","action":"wpa_stats_action","url":"\/inscricoes\/","post_id":"1941"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/wp-accessibility/js/wp-accessibility.min.js" id="wp-accessibility-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/ui/accordion.min.js" id="jquery-ui-accordion-js"></script>
 <script type="text/javascript" src="/wp-content/themes/zermatt/inc/justified-gallery/assets/js/plugins/jquery.justifiedGallery.min.js" id="justified-gallery-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min.js" id="isotope-js"></script>
